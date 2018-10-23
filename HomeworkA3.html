@@ -1,0 +1,97 @@
+<script>
+     var x = prompt("Введите сумму ");
+	 var k1 = 500;
+	 var k2 = 200;
+	 var k3 = 100;
+	 var k4 = 50;
+	 var k5 = 20;
+	 var k6 = 10;
+     var k7 = 5 ;
+     var k8 = 2;
+	 var k9 = 1;
+	 var k10 = ((k1+k2+k3+k4+k5+k6+k7+k8+k9)*10);
+	 var s1 = 0;
+	 var s2 = 0;
+	 var s3 = 0;
+	 var s4 = 0;
+	 var s5 = 0;
+	 var s6 = 0;
+	 var s7 = 0;
+	 var s8 = 0;
+	 var s9 = 0;
+	 if (x>k10){alert("Превышен лимит купюр ")} else {
+	 
+    var a1 ;
+         a1 = x / k1 ;
+		 a1 = Math.floor(a1);
+		 if (a1>=10){s1 = 10}else{s1=a1};
+		 console.log("Купюр по 500 грн - "+s1);
+		 var x1 = s1* k1;
+	var a2;
+		var o = x-x1;
+        a2 = (x-x1)/k2;
+		
+        a2 = Math.floor(a2);
+		if (a2>=10){s2 = 10}else{s2=a2};
+		console.log("Купюр по 200 грн - "+s2);
+     var x2 = s2*k2;
+     var a3;
+			o = x-x1-x2;
+            a3 = (x-x1-x2)/k3;
+			
+            a3 = Math.floor(a3);
+			if (a3>=10){s3 = 10}else{s3=a3};
+			console.log("Купюр по 100 грн - "+s3);
+	var x3 = s3*k3;
+	var a4;
+			o = x-x1-x2-x3;
+            a4 = (x-x1-x2-x3)/k4;
+			
+            a4 = Math.floor(a4);
+			if (a4>=10){s4 = 10}else{s4=a4};
+			console.log("Купюр по 50 грн - "+s4);
+	var x4 = s4*k4;
+	var a5;
+			o = x-x1-x2-x3-x4;
+            a5 = (x-x1-x2-x3-x4)/k5;
+			
+            a5 = Math.floor(a5);
+			if (a5>=10){s5 = 10}else{s5=a5};
+			console.log("Купюр по 20 грн - "+s5);
+	var x5 = s5*k5;
+	var a6;
+			o = x-x1-x2-x3-x4-x5;
+            a6 = (x-x1-x2-x3-x4-x5)/k6;
+			
+            a6 = Math.floor(a6);
+			if (a6>=10){s6 = 10}else{s6=a6};
+			console.log("Купюр по 10 грн - "+s6);
+	var x6 = s6*k6;
+	var a7;
+			o = x-x1-x2-x3-x4-x5-x6;
+            a7 = (x-x1-x2-x3-x4-x5-x6)/k7;
+			
+			a7 = Math.floor(a7);
+			if (a7>=10){s7 = 10}else{s7=a7};
+			console.log("Купюр по 5 грн - "+s7);
+	var x7 = s7*k7;
+	var a8;
+			o = x-x1-x2-x3-x4-x5-x6-x7;
+            a8 = (x-x1-x2-x3-x4-x5-x6-x7)/k8;
+			
+            a8 = Math.floor(a8);
+			if (a8>=10){s8 = 10}else{s8=a8};
+			console.log("Купюр по 2 грн - "+s8);
+	var x8 = s8*k8;
+	var a9;
+			o = x-x1-x2-x3-x4-x5-x6-x7-x8;
+            a9 = (x-x1-x2-x3-x4-x5-x6-x7-x8)/k9;
+			
+            a9 = Math.floor(a9);
+			if (a9>=10){s9 = 10}else{s9=a9};
+			console.log("Купюр по 1 грн - "+s9);
+	var x9 = s9*k9;
+			o = x-x1-x2-x3-x4-x5-x6-x7-x8-x9;
+			
+	};
+</script>
