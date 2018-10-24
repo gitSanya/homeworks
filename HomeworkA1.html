@@ -1,0 +1,14 @@
+<script>
+    var sum = prompt("Введите сумму ");
+    var income ;
+    income =sum*0.22;
+    var tax;
+    tax = income *0.195;
+    var income_year;
+    income_year = income-tax;
+    var income_day;
+    income_day = income_year/365;
+    if(income_day<1){
+        console.log("Доход в день "+income_day.toFixed(2)*100+" копеек UAH");
+    }else{console.log("Доход в день "+income_day.toFixed(0)+" UAH")};
+</script>
