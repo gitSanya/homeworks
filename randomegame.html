@@ -1,0 +1,42 @@
+<script>
+ var a = Math.floor(Math.random()*1000);
+console.log(a);
+var i=0;
+var c=10;
+do{
+        var b = prompt(" Enter number");
+        var k = b-a;
+        console.log(k);
+        i++;
+        console.log(b);
+        if (k <= -1 && k >=-20)
+        {
+            alert("Ты рядом, но число немного больше !");
+        }
+        else if(b < a)
+        {
+            alert("Рандомное число больше!");
+        }
+        else if (k >= 1 && k <= 20)
+        {
+            alert("Ты рядом, но число немного меньше !");
+        }
+        
+        else if (b > a)
+        {
+            alert("Рандомное число меньше");
+        };
+    
+    }while(a!=b && i!=11);
+    while(i > c)
+    {
+        alert("Ты Newbee, число:" +a +" Попыток:  " +c);
+        break;
+        };
+    while(a == b)
+    {
+        alert("Ты Ванга, число:" +a +" Попыток: " +i);
+        break;
+        };
+
+</script>
